@@ -3,9 +3,12 @@
 /**
  * Entry point
  */
-int main(void)
+int main()
 {
-	char words = "\"Programming is like building a multilingual puzzle" ;
-	puts (words);
+
+	char Words[] = "\"Programming is like a multilingual puzzle";
+
+	puts (Words);
+
 	return (0);
 }
