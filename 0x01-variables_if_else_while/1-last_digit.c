@@ -31,7 +31,8 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/* your code goes there */
-	long last_digit = n%10;
+	int last_digit;
+	last_digit = n%10;
 
 	if (last_digit > 5)
 		printf("Last digit of %li is %li and is greater than 5\n",n,last_digit);
