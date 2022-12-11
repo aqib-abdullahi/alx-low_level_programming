@@ -15,12 +15,13 @@ int main(void)
 	char ch;
 
 
-	for(ch = 'a'; ch <= 'z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if(ch == ('q' || 'e')) break;
-		
+	if (ch == 'e') break;
+	if (ch == 'q') break;
+
 	putchar(ch);
-	
+
 	}
 	putchar('\n');
 
