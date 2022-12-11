@@ -14,11 +14,11 @@ int main(void)
 	char ch;
 	char nl;
 
-	nl = "\n"
+	nl = "\n";
 
 	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch)
-		putchar(nl)
+		putchar(ch);
+		putchar(nl);
 
 	return (0);
 
