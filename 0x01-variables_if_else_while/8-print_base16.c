@@ -13,10 +13,10 @@
 int main(void)
 {
 
-	char num;
+	int num;
 	char ch;
 
-	for (num = 0; num <= 9; num++)
+	for (num = '0'; num <= '9'; num++)
 		putchar(num);
 
 	for (ch = 'a'; ch <= 'f'; ch++)
