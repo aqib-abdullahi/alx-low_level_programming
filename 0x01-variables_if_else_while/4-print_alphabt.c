@@ -17,8 +17,11 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-	if (ch == 'e') break;
-	if (ch == 'q') break;
+	if (ch = 'e')
+		continue;
+
+	if (ch = 'q')
+		continue;
 
 	putchar(ch);
 
