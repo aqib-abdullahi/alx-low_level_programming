@@ -3,13 +3,13 @@
 /**
  * _islower - check character
  *
- * c: An Input character
+ * @c: An Input character
  *
  * _islower - start point
  *
  * Description: Checking upper or lower case
  *
- * Return: 1 (Success)
+ * Return: 1 (Success) if it is lower case or 0 if uppercase
  */
 
 int _islower(int c)
