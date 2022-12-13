@@ -9,7 +9,6 @@
  *
  * Description: Checking upper or lower case
  *
- * Return: 1 (Success) 
  */
 
 int _islower(int c)
