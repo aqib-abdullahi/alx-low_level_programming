@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * @c : Input character
  * _islower - start
  *
  * Description: Checking upper or lower case
@@ -20,6 +21,6 @@ int _islower(int c)
 		if (i == c)
 		lower = 1;
 	}
-	
+
 	return (lower);
 }
