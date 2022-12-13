@@ -1,8 +1,11 @@
 #include "main.h"
 
 /**
- * @c : Input character
- * _islower - start
+ * _islower - check character
+ *
+ * c: An Input character
+ *
+ * _islower - start point
  *
  * Description: Checking upper or lower case
  *
