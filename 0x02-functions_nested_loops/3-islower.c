@@ -9,7 +9,7 @@
  *
  * Description: Checking upper or lower case
  *
- * Return: 1 (Success) if it is lower case or 0 if uppercase
+ * Return: 1 (Success) 
  */
 
 int _islower(int c)
