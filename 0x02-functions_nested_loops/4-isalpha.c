@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - check character is an alphabet
+ *_isalpha - check character is an alphabet
  * @c: Typee int character
  * Description: checking whether input is lower
  * or uppercase.
