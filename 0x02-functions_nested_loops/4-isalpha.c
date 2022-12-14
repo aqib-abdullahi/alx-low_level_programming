@@ -12,25 +12,11 @@
 int _isalpha(int c)
 {
 
-	char Upper;
 
-	char Lower;
+	if ((c > 64 && c < 91) || (c > 96 && c < 123))
+		return (1);
 
-	int isLetter = 1;
-
-
-	for (Lower = 'a'; Lower <= 'z'; Lower++)
-	{
-
-		for (Upper = 'A'; Upper <= 'Z'; Upper++)
-		{
-
-			if (c == Lower || c == Upper)
-				isLetter = 1;
-
-		}
-	
-	}
-	return (isLetter);
+	else
+		return (0);
 
 }
