@@ -3,6 +3,7 @@
 
 /**
  * print_sign - checks the sign of an input
+ * @n : An input character
  * Description: Printing the sign of an inputted number
  * Return: 1 if n is greater than zero
  * 0 if n is zero. -1 if n is less than zero
@@ -14,19 +15,19 @@ int print_sign(int n)
 
 	if (n > 0)
 	{
-		printf("+ %i", n);
+		_putchar('+');
 		ret = 1;
 	}
 
-	if (n == 0)
+	else if (n == 0)
 	{
-		printf("0");
+		_putchar('0');
 		ret = 0;
 	}
 
-	if (n < 0)
+	else
 	{
-		printf("-, %i", n);
+		_putchar('-');
 		ret = -1;
 	}
 
