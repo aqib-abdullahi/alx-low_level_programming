@@ -2,13 +2,13 @@
 
 /**
  * print_last_digit - Printing the last digit of a number
- * @o: Input number
+ * @r: Input number
  * Description: Printing the last digit of a number and
  * returning the value of the last digit
  * Return: Value of the last digit.
  */
 
-int print_last_digit(int o)
+int print_last_digit(int r)
 {
 
 	int lstdigit;
