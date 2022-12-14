@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 
 /**
  * jack_bauer - print every minute of the day
@@ -10,7 +12,7 @@
 void jack_bauer(void)
 {
 	int x;
-	int a = 0 , b = 0, c = 0, d = 0;
+	int a = 0, b = 0, c = 0, d = 0;
 
 	while (x < 1440)
 	{
