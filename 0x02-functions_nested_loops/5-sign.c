@@ -15,20 +15,22 @@ int print_sign(int n)
 	if (n > 0)
 	{
 		printf("+ %i", n);
-		return (1);
+		ret = 1;
 	}
 
 	if (n == 0)
 	{
 		printf("0");
-		return (0);
+		ret = 0;
 	}
 
 	if (n < 0)
 	{
 		printf("-, %i", n);
-		return (-1);
+		ret = -1;
 	}
+
+	return (ret);
 
 
 }
