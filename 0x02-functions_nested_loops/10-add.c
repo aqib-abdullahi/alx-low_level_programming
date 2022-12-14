@@ -2,16 +2,13 @@
 
 /**
  * add - add two integers
- * @x - input number
- * @y - input number
+ * x - input number
+ * y - input number
  * Description: Adding two integers
  * Return: Addition of integers
  */
 
 int add(int x, int y)
 {
-
-	return(x + y);
-
-
+	return (x + y);
 }
