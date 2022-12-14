@@ -18,7 +18,7 @@ int print_last_digit(int r)
 		lstdigit = -1 * (r % 10);
 		return (lstdigit);
 		_putchar(lstdigit);
-		_putchar(lstdigit);
+		printf("%i", lstdigit);
 	}
 	else
 	{
