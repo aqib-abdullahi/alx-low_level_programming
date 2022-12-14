@@ -5,7 +5,7 @@
  * @c: Typee int character
  * Description: checking whether input is lower
  * or uppercase.
- * Reaturn: 1 (success) if it is a letter,
+ * Return: Re 1 (success) if it is a letter,
  * lowercase or uppercase, 0 otherwise
  */
 
