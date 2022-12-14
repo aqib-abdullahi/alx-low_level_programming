@@ -7,7 +7,7 @@
  * Return
  */
 
-void jack_bauer(void)
+void jack_bauer()
 {
 
 	int x;
@@ -36,19 +36,19 @@ void jack_bauer(void)
 		d++;
 		if (d > 9)
 		{
-			d = 0
+			d = 0;
 			c++;
 		}
 
 		if (c > 5)
 		{
-			c = 0
+			c = 0;
 			b++;
 		}
 
 		if (b > 9)
 		{
-			b = 0
+			b = 0;
 			a++;
 		}
 		x++;
