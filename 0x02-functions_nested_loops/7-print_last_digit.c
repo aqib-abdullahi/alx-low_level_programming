@@ -17,15 +17,14 @@ int print_last_digit(int r)
 	if (r < 0)
 	{
 		lstdigit = -1 * (r % 10);
-		return (lstdigit);
-		_putchar(lstdigit);
-		printf("%i", lstdigit);
 	}
 	else
 	{
 		lstdigit = r % 10;
-		return (lstdigit);
 	}
+
+	_putchar((lstdigit % 10) + '0');
+	return (lstdigit % 10);
 
 
 }
