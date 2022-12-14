@@ -6,7 +6,7 @@
  *
  * Description: checking whether input is lower
  * or uppercase.
- * Reaturn: 1 if letter, lower or uppercase, 0 otherwise
+ * Reaturn: Always 1 (success)
  */
 
 int _isalpha(int c)
