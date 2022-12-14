@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _isalpha - check ALX
- * @c: An input character
- *
+ * _isalpha - check character is an alphabet
+ * @c: Typee int character
  * Description: checking whether input is lower
  * or uppercase.
- * Reaturn: _isalpha is always 1 (success) if it is a letter 0 otherwise
+ * Reaturn: 1 (success) if it is a letter,
+ * lowercase or uppercase, 0 otherwise
  */
 
 int _isalpha(int c)
