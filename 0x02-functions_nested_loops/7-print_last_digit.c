@@ -8,12 +8,13 @@
  * Return: Value of the last digit.
  */
 
-int print_last_digit(int o);
+int print_last_digit(int o)
 {
 
 	int lstdigit;
 
 	lstdigit = o % 10;
+	_putchar(lstdigit);
 	return (lstdigit);
 
 
