@@ -2,8 +2,8 @@
 
 /**
  * add - add two integers
- *@x - input number 1
- *@y - input number 2
+ * @x - input int  number 1
+ * @y - input int number 2
  * Description: Adding two integers
  * Return: Addition of integers
  */
