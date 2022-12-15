@@ -10,14 +10,18 @@
 
 int _isupper(int c)
 {
+	char i;
 	int ret;
 
+	ret = 0;
 
-	if ((c == 'A') && (c == 'Z'))
+	for (i = 'A'; i <= 'Z'; i++)
 	{
-		ret = 1;
-	else
-		ret = 0;
+		if (i == c)
+			ret = 1;
+		else
+			ret = 0;
+	}
 
 
 	return (ret);
