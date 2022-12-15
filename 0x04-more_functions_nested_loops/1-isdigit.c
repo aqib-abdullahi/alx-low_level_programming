@@ -9,19 +9,8 @@
 
 int _isdigit(int c)
 {
-	int ret;
-	int i;
+	if (c > 47 && c < 58)
+		return (1);
 
-	i = 0;
-	ret = 0;
-
-	for (i = 0; i < 10; i++)
-	{
-		if (c == i)
-			ret = 1
-		else
-			ret = 0
-	}
-	return (ret);
-
+	return (0);
 }
