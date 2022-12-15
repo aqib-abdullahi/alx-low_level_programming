@@ -5,10 +5,11 @@
  * @a - int type number
  * @b - int type number
  * Description: Function for multiplying two integers
- * Return: No return
+ * Return: a * b
  */
 
 int mul(int a, int b)
 {
+
 	return (a * b);
 }
