@@ -33,7 +33,7 @@ void print_triangle(int size)
 			sp--;
 			putchar('\n');
 		}
-	
+
 	}
 	else
 		putchar('\n');
