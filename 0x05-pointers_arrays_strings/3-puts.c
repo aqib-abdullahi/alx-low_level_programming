@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _puts - A function that prints to stdout
  * @str: char type character
@@ -14,8 +14,8 @@ void _puts(char *str)
 
 	while (str[i] != '\0')
 	{
-		_putchar(str[i]);
+		putchar(str[i]);
 		i++;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
