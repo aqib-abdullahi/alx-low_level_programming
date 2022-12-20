@@ -11,16 +11,18 @@
 void puts2(char *str)
 {
 	int i;
+	int len;
+
 
 	i = 0;
+	len = 0;
 
 	while (str[i] != '\0')
-	{
-		if ((i / 2) != 0)
-			continue;
-		else
-			printf("%c", str[i]);
-	i++;
-	}
+		i++;
+	i = i - 2;
+
+	for (len = 0; len <= i; len = len + 2)
+		putchar(str[i]);
+	putchar('\n');
 
 }
