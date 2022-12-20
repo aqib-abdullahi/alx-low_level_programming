@@ -4,7 +4,7 @@
 /**
  * puts2 -  A function that prints every
  * other character starting from the first
- * @str - string input
+ * str - string input
  * Return: Nothing
  */
 
@@ -16,7 +16,7 @@ void puts2(char *str)
 
 	while (str[i] != '\0')
 	{
-		if (i/2 != 0)
+		if ((i / 2) != 0)
 			continue;
 		else
 			printf("%c", str[i]);
