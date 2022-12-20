@@ -4,7 +4,7 @@
 /**
  * puts2 -  A function that prints every
  * other character starting from the first
- * str - string input
+ * *str - string input
  * Return: Nothing
  */
 
