@@ -20,11 +20,14 @@ char *_strchr(char *s, char c)
 	{
 		if (sr[i] == value)
 			break;
+		else
+			return ('\0');
 	}
 	while (i != '\0')
 	{
-		sr[n] = sr[i]
+		sr[n] = sr[i];
 	n++;
 	i++;
 	}
+	return (sr);
 }
