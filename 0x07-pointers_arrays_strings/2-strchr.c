@@ -12,16 +12,19 @@ char *_strchr(char *s, char c)
 	char *sr = s;
 	int i;
 	int n;
+	char value;
 
 	n = 0;
 
 	for (i = 0; i != '\0'; i++)
 	{
-		if (sr[i] == c)
+		if (sr[i] == value)
 			break;
 	}
-	for (; i < '\0'; i++, n++)
+	while (i != '\0')
 	{
 		sr[n] = sr[i]
+	n++;
+	i++;
 	}
 }
