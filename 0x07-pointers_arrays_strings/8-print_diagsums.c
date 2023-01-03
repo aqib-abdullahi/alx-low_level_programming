@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * print_diagsums - a function that prints
@@ -10,26 +11,29 @@
  * Return: nothing
  */
 
-void print_diagsums(int *a, int size);
+void print_diagsums(int *a, int size)
 {
 	int i;
-	int j;
 	int sum1;
 	int sum2;
-	int k;
-	int l;
 
-	i = 0;
-	j = 0;
 	sum1 = 0;
 	sum2 = 0;
-	l = size;
 
-	for (i = 0; i < size; i++, j++)
-		sum1 += a[i][j];
+	for (i = 0; i < size; i++)
+	{
+		sum1 += a[i];
+		a += size;
+	}
 
-	for (k = 0; (k < size) && (l >= 0); k++, l--)
-		sum2 += a[k][l];
+	a -= size;
+
+	for (i = 0; i < size; i++)
+	{
+		sum2 += a[i];
+		a -= size;
+	}
+
 	printf("%d, %d\n", sum1, sum2);
 
 }
