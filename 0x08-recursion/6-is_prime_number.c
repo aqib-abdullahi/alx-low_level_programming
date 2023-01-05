@@ -5,7 +5,8 @@ int divisible(int num, int res);
 /**
  * divisible - a function that determines whether
  * an input num is divisible by a number or not
- * @res - division result
+ * @num: int n from is_prime_number()
+ * @res: division result
  * Return: 1 if num is divisible by 2 or 0 is num
  * mod res is false
  */
@@ -16,7 +17,7 @@ int divisible(int num, int res)
 		return (1);
 	if (num % res == 0)
 		return (0);
-	return(divisible(num, res + 1));
+	return (divisible(num, res + 1));
 }
 /**
  * is_prime_number - a function that determines
