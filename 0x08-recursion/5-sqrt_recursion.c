@@ -18,7 +18,7 @@ int find_sqr(int x, int num)
 		return (num);
 	if (num == x / 2)
 		return (-1);
-	return (find_sqr(x, num + 1);
+	return (find_sqr(x, num + 1));
 }
 
 /**
