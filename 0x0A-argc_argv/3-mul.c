@@ -22,7 +22,7 @@ int main(int __attribute__ ((unused)) argc, char* argv[])
 		printf("%d\n", mult);
 		return (0);
 	}
-	putchar('Error'); 
+	printf("Error");
 	return (1);
 		
 }
