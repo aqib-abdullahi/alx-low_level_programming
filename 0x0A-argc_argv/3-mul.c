@@ -24,5 +24,4 @@ int main(int __attribute__ ((unused)) argc, char* argv[])
 	}
 	printf("Error");
 	return (1);
-		
 }
