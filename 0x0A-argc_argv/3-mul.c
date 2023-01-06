@@ -14,6 +14,7 @@ int main(int __attribute__ ((unused)) argc, char* argv[])
 {
 	int i;
 	int mult;
+
 	i = 2;
 
 	if (argv[i])
