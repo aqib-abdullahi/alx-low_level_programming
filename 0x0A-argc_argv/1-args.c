@@ -1,5 +1,4 @@
-#include <stdlib.h>
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - a function that prints the
@@ -9,9 +8,8 @@
  * Return: 0 (success)
  */
 
-int main_argc(int argc, char* argv[])
+int main_(int argc, char __attribute__((__unused__)) *argv[])
 {
-	if (argv[0])
-		printf("%d\n", argc - 1);
+	printf("%d\n", argc - 1);
 	return (0);
 }
