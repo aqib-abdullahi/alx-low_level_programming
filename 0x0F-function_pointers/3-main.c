@@ -11,7 +11,7 @@
  * if int divided or mod by 0, exit 100
  */
 
-int main(int argc, *argv[])
+int main(int argc, char *argv[])
 {
 	int (*operator)(int, int);
 	if (argc != 4)
