@@ -1,5 +1,5 @@
 #include "variadic_functions.h"
-#include <sttdlib.h>
+#include <stdlib.h>
 #include <stdarg.h>
 
 /**
