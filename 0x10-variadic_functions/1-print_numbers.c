@@ -28,6 +28,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			i++;
 		}
 		va_end(pn);
+		printf("\n");
 	}
 	printf("\n");
 }
