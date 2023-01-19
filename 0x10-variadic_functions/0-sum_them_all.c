@@ -16,9 +16,9 @@ int sum_them_all(const unsigned int n, ...)
 
 	if (n <= 0)
 		return (0);
-	va_start (sp, n);
+	va_start(sp, n);
 	for (i = 0; i < n; i++)
-		sum += va_arg (sp, unsigned int);
-	va_end (sp);
+		sum += va_arg(sp, unsigned int);
+	va_end(sp);
 	return (sum);
 }
