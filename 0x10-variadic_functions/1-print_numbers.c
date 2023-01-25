@@ -6,8 +6,6 @@
 /**
  * print_numbers - print numbers given as
  * parameters followed by a new line
- * @seperator: character input to be used for
- * seperation
  * @n: number of optional arguments
  * Return: Nothing
  */
@@ -15,6 +13,7 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i = 0;
+
 	va_list(pn);
 
 	if (n > 0)
