@@ -16,6 +16,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	va_list(pn);
 
+
 	if (n > 0)
 	{
 		va_start(pn, n);
