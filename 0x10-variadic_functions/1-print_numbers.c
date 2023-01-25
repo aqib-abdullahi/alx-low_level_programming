@@ -6,6 +6,7 @@
 /**
  * print_numbers - print numbers given as
  * parameters followed by a new line
+ * @separator: inbetween
  * @n: number of optional arguments
  * Return: Nothing
  */
