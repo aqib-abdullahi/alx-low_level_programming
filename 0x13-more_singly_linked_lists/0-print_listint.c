@@ -20,5 +20,5 @@ size_t print_listint(const listint_t *h)
 		node_count += 1;
 		current_node = current_node->next;
 	}
-	return (node_count);
+	return(node_count);
 }
