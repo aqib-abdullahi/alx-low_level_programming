@@ -1,6 +1,8 @@
 #include "lists.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <stddef.h>
+
 /**
  * listint_len - a function that returns
  * the number of elements in a linked
@@ -18,5 +20,6 @@ size_t listint_len(const listint_t *h)
 		element++;
 		h = h->next;
 	}
+
 	return (element);
 }
