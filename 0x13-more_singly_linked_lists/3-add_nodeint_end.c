@@ -12,9 +12,9 @@
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *new_node;
-	struct Node* last = *head;
+	listint_t* last = *head;
 
-	struct Node* new_node = (struct Node*) malloc(sizeof(struct Node));
+	new_node = malloc(sizeof(listint_t));
 	
 	if (new_node == NULL)
 		return (NULL);
